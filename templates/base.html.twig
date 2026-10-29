@@ -6,9 +6,7 @@
     <meta name="description" content="Site de présentation de la Fédération Djiboutienne de Football : actualités, équipes nationales et compétitions.">
     <title>{% block title %}Fédération Djiboutienne de Football{% endblock %}</title>
     {% block stylesheets %}{% endblock %}
-    {% block javascripts %}
-        {% block importmap %}{{ importmap('app') }}{% endblock %}
-    {% endblock %}
+    {% block javascripts %}{{ importmap('app') }}{% endblock %}
 </head>
 <body>
     {% block body %}{% endblock %}
